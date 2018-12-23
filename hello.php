@@ -1,2 +1,0 @@
-hello php
-hello js
