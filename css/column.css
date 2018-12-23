@@ -1,0 +1,457 @@
+#headline{
+	width: 100%;
+	min-width: 1263px;
+	height: 300px;
+	background: url(../img/headine.jpg) no-repeat center;
+}
+#headline .center{
+	width: 1263px;
+	height: 300px;
+	margin: 0 auto;
+}
+#headline hgroup{
+	padding: 100px 0 0 50px;
+}
+#headline h2{
+	color: #EEEEEE;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+#headline h3{
+	color: #EEEEEE;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+#container{
+	width: 1263px;
+	margin: 30px auto;
+}
+#container .sidebar{
+	width: 340px;
+	float: right;
+}
+#container .sidebox{
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#container .sidebox h2{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+}
+#container .tag{
+	padding: 10px 0;
+}
+/*#container .tag a:nth-child(1){
+	display: none;
+}*/
+#container .tag li{
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #eee;
+	color: #888;
+	display: inline-block;
+	margin: 2px 0;
+	text-align: left;
+	text-indent: 8px;
+}
+#container .tag a{
+	display: block;
+	color: #888;
+}
+#container .tag a:hover{
+	background-color: #458b00;
+	color: #FAFAFA;
+}
+#container .figure img{
+	width: 150px;
+	height: 120px;
+}
+#container .figure{
+	padding: 10px 0;
+}
+#container figure{
+	display: inline-block;
+	padding: 4px;
+	color: #666;
+}
+
+#container .box{
+	padding: 10px 0;
+}
+#container .box a{
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #eee;
+	color: #888;
+	display: inline-block;
+	margin: 2px 0;
+	text-align: center;
+}
+
+#container .box a.trea1{
+	background:#eee  url(../img/tq.jpg)no-repeat 10px center;
+	background-size: 20px 20px;
+	color: #458b00;
+}
+#container .box a.trea2{
+	background:#eee  url(../img/hc.jpg)no-repeat 10px center;
+	background-size: 20px 20px;
+	color: #458b00;
+}
+#container .box a.trea3{
+	background:#eee  url(../img/fj.jpg)no-repeat 10px center;
+	background-size: 20px 20px;
+	color: #458b00;
+}
+#container .box a.trea4{
+	background:#eee  url(../img/dt.png)no-repeat 10px center;
+	background-size: 20px 20px;
+	color: #458b00;
+}
+
+
+#container .information .list{
+	width: 910px;
+	float: left;
+}
+#container .information .infor{
+	height: 45px;
+	line-height: 45px;
+	background-color: #eee;
+	margin: 0 0 20px 0;
+}
+#container .information .left{
+	display: inline-block;
+	float: left;
+}
+#container .information .left li{
+	display: inline-block;
+	width: 150px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+}
+#container .information .left li:first-child{
+	background-color: #fff;
+	border-top: 2px solid greenyellow;
+	position: relative;
+	left: 1px;
+}
+#container .information .left li a{
+	color: #666;
+}
+
+#container .information .right{
+	display: inline-block;
+	float: right;
+	padding: 0 20px 0 0;
+}
+#container .information .right li{
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+#container .information .right a{
+	color: #666;
+	padding: 3px 8px;
+}
+#container .information .right a.select,#container .information .right a:hover{
+	background-color: #458B00;
+	color: #FAFAFA;
+}
+
+#container .list .tour img{
+	width: 380px;
+	height: 230px;
+	float: left;
+}
+#container .tour{
+	width: 908px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border: 1px solid #eee;
+	position: relative;
+}
+#container .tour figcaption{
+	width: 528px;
+	height: 230px;
+	float: right;
+}
+#container .tour hgroup{
+	width: 300px;
+}
+#container .tour h2{
+	font-weight: normal;
+	font-size: 24px;
+	color:#666;
+	padding: 10px 0 10px 25px;
+}
+#container .tour h3{
+	font-weight: normal;
+	font-size: 16px;
+	color:#666;
+	padding: 10px 0 10px 25px;
+	line-height: 1.5;
+}
+#container .tour ol{
+	padding: 0 0 0 25px;
+	line-height: 2;
+	color: #666;
+}
+#container .tour mark{
+	background-color: #fff;
+	border: 1px solid #458B00;
+	border-radius: 4px;
+	padding: 0 5px;
+	color: #458b00;
+}
+#container .tour .buy{
+	position: absolute;
+	top: 55px;
+	right: 30px;
+}
+#container .tour .price{
+	font-size: 20px;
+	color: #f60;
+}
+#container .tour .price strong{
+	font-size: 36px;
+}
+#container .tour .price s{
+	font-size: 16px;
+	color: #666;
+}
+#container .tour .reserve{
+	margin-top: 10px;
+}
+#container .tour .reserve a{
+	display: inline-block;
+	width: 152px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: fff;
+	background-color: #f60;
+	border-radius: 4px;
+	text-align: center;
+}
+#container .tour .type{
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	background-color: #59b200;
+	color: #FFFFFF;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#container .tour .disc{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 52px;
+	height: 52px;
+	background: url(../img/discount.jpg)no-repeat;
+}
+#container .tour .disc span{
+	display: block;
+	transform: rotate(45deg);
+	font-size: 14px;
+	width: 52px;
+	height: 52px;
+	padding: 5px 0 0 0;
+	text-indent: 7px;
+	color: #ff7a4d;
+}
+#container .tour footer{
+	width: 528px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 25px;
+	letter-spacing: 1px;
+	background-color: #FAFAFA;
+	color: #666;
+	position: absolute;
+	bottom: 0;
+}
+#container .tour time{
+	color: #458B00;
+}
+#container .information .more,#container .scenery .more{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	background-color: #fafafa;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	color: #888;
+}
+
+#container .ticket,#container .scenery,#container .about{
+	color: #666;
+	font-size: 20px;
+}
+#container .ticket h2,#container .scenery h2,#container .about h2{
+	width: 70%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #999;
+	padding: 0 0 15px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+#container .ticket .type{
+	margin: 20px 0 10px 0;
+}
+#container .ticket .type mark{
+	background-color: #458B00;
+	color: #fafafa;
+	padding: 5px 8px;
+	border-radius: 4px;
+	margin: 0 10px 0 16px;
+}
+#container .ticket .form  p{
+	line-height: 3;
+}
+#container .ticket .form input{
+	width: 250px;
+	height: 30px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px;
+	color:#666;
+	margin: 0 0 0 16px;
+	font-size: 18px;
+}
+#container .ticket .left{
+	display: inline-block;
+}
+#container .ticket .right{
+	display: inline-block;
+}
+#container .ticket .botton{
+	width: 10%;
+	display: inline-block;
+}
+#container .ticket .botton .submit{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 20px;
+	color: fff;
+	background-color: #f60;
+	border-radius: 4px;
+	text-align: center;
+	position: relative;
+	top: -28px;
+	left: 10px;
+	cursor: pointer;
+}
+#container .ticket .new{
+	margin: 20px 0 0 0;
+	font-size: 20px;
+}
+#container .ticket .new ul{
+	margin: 20px 0 0 0;
+}
+#container .ticket .new li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+#container .ticket .new li:first-child{
+	padding-left: 0;
+}
+#container .ticket .new li:nth-child(2){
+	background-color: #458b00;
+	color: #fafafa;
+	border-radius: 4px;
+}
+#container .ticket table{
+	margin: 20px 0 0 0;
+	width: 70%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+#container .ticket table th{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+}
+#container .ticket table td{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+#container .ticket table tr:nth-child(2n){
+	background-color: #fafafa;
+}
+#container .ticket table tr:hover{
+	background-color: #eee;
+}
+#container .ticket table .price{
+	color: #f60;
+}
+#container .ticket table .more{
+	color: #777;
+}
+#container .ticket table .reserve{
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	color: fff;
+	background-color: #f60;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#container .scenery figure{
+	width: 435px;
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 5px 12px 0;
+	text-align: left;
+}
+#container .scenery figure img{
+	width: 435px;
+	height: 280px;
+}
+#container .scenery figcaption{
+	text-align: center;
+	padding: 5px 0;
+}
+#container .about p{
+	line-height: 2;
+	margin: 20px 0;
+}
+#container .about address{
+	line-height: 1.5;
+	margin: 20px 0;
+	font-style: normal;
+}
